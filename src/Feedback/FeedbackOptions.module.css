@@ -1,0 +1,13 @@
+.optionsList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.optionItem {
+  display: block;
+}
+
+.optionsList :not(:last-child) {
+  margin-right: 20px;
+}
